@@ -95,7 +95,7 @@ WSGI_APPLICATION = 'twitter_clone.wsgi.application'
 
 import dj_database_url
 DATABASES = {
-    'default': dj_database_url.parse("postgresql://twitter_clone_6ecg_user:acuzMrWei7et4n9Oqi0UjIYiaza51Izg@dpg-cq8ng0t6l47c73d1859g-a.oregon-postgres.render.com/twitter_clone_6ecg")
+    'default': dj_database_url.parse("")
 }
 
 # Password validation
